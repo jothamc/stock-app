@@ -57,7 +57,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+     'http://localhost:3000',
+     'https://admiring-booth-205f53.netlify.app/'
 ]
 
 ROOT_URLCONF = 'stock_market.urls'
